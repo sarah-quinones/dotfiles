@@ -8,7 +8,7 @@ depends = []
 
 "fish.fish" = "~/.config/fish/config.fish"
 "fish-oh-my-posh.fish" = "~/.config/fish/oh-my-posh.fish"
-"M365Princess.omp.json" = "~/.poshthemes/M365Princess.omp.json"
+"M365Princess.omp.json" = { target = "~/.poshthemes/M365Princess.omp.json", type = "symbolic" }
 
 gitconfig = "~/.gitconfig"
 gitignore = "~/.gitignore"
