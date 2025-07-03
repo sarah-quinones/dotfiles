@@ -10,7 +10,7 @@ set --global _omp_current_rprompt ''
 set --global _omp_transient 0
 set --global _omp_executable "$HOME/.local/bin/oh-my-posh"
 set --global _omp_ftcs_marks 0
-set --global _omp_transient_prompt 0
+set --global _omp_transient_prompt 1
 set --global _omp_prompt_mark 0
 
 # disable all known python virtual environment prompts

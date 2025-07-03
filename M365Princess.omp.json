@@ -89,10 +89,10 @@
           "background": "p:teal_blue",
           "foreground": "p:white",
           "properties": {
-            "time_format": "15:04"
+            "time_format": "15:04:05"
           },
           "style": "diamond",
-          "template": " \u2665 {{ .CurrentDate | date .Format }} ",
+          "template": " {{ if gt .Code 0 }}\u2715{{ else }}\u2665{{ end }} {{ .CurrentDate | date .Format }} ",
           "trailing_diamond": "\ue0b0",
           "type": "time"
         }
@@ -100,6 +100,11 @@
       "type": "prompt"
     }
   ],
+  "transient_prompt": {
+    "background": "transparent",
+    "foreground": "p:salmon",
+    "template": " {{ if gt .Code 0 }}\u2715{{ else }}\u2665{{ end }} {{ now | date \"15:04:05\" }} | "
+  },
   "final_space": true,
   "version": 3
 }
