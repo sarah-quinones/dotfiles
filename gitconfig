@@ -1,0 +1,7 @@
+[user]
+	name = sarah-quiñones
+	email = sarah@veganb.tw
+[init]
+	defaultBranch = main
+[core]
+	excludesFile = ~/.gitignore

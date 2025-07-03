@@ -6,8 +6,11 @@ depends = []
 [default.files]
 "bottom.toml" = "~/.config/bottom/bottom.toml"
 "fish.fish" = "~/.config/fish/config.fish"
-"helix-lang.toml" = "~/.config/helix/config.toml"
-"helix.toml" = "~/.config/helix/languages.toml"
+gitconfig = "~/.gitconfig"
+gitignore = "~/.gitignore"
+"helix-lang.toml" = "~/.config/helix/languages.toml"
+"helix.toml" = "~/.config/helix/config.toml"
+"rustfmt.toml" = "~/rustfmt.toml"
 "zellij.kdl" = "~/.config/zellij/config.kdl"
 
 [default.variables]
