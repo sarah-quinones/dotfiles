@@ -1,0 +1,15 @@
+[[language]]
+name = "rust"
+auto-format = true
+
+[language-server.rust-analyzer]
+command = "rust-analyzer"
+inlay-hints = true
+
+[language-server.rust-analyzer.config]
+rust-analyzer.cargo.targetDir = "/tmp/rust-analyzer-check"
+
+rust-analyzer.inlayHints.closureReturnTypeHints.enable = "always"
+rust-analyzer.inlayHints.closureCaptureHints.enable = true
+rust-analyzer.inlayHints.lifetimeElisionHints.enable = "always"
+rust-analyzer.inlayHints.genericParameterHints.lifetime.enable = true

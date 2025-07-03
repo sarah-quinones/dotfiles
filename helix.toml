@@ -1,0 +1,39 @@
+theme = "gruvbox"
+
+[keys.normal.space]
+"=" = ":format"
+
+[keys.normal]
+S-l = "goto_line_end"
+S-h = "goto_first_nonwhitespace"
+0 = "goto_line_start"
+"\\" = "command_mode"
+C-h = "jump_view_left"
+C-l = "jump_view_right"
+C-j = "jump_view_down"
+C-k = "jump_view_up"
+i = ["collapse_selection", "insert_mode", "collapse_selection"]
+a = ["collapse_selection", "append_mode", "collapse_selection"]
+
+[keys.select]
+S-l = "goto_line_end"
+S-h = "goto_first_nonwhitespace"
+0 = "goto_line_start"
+"\\" = "command_mode"
+C-h = "jump_view_left"
+C-l = "jump_view_right"
+C-j = "jump_view_down"
+C-k = "jump_view_up"
+i = ["collapse_selection", "insert_mode", "collapse_selection"]
+a = ["collapse_selection", "append_mode", "collapse_selection"]
+
+[keys.insert]
+C-space = "completion"
+"A-&" = "@.rb_mut()"
+"A-*" = "@.rb()"
+
+[editor]
+true-color = true
+lsp.display-inlay-hints = true
+end-of-line-diagnostics = "hint"
+inline-diagnostics.cursor-line = "hint"

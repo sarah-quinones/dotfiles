@@ -1,0 +1,16 @@
+[helpers]
+
+[default]
+depends = []
+
+[default.files]
+"bottom.toml" = "~/.config/bottom/bottom.toml"
+"fish.fish" = "~/.config/fish/config.fish"
+"helix-lang.toml" = "~/.config/helix/config.toml"
+"helix.toml" = "~/.config/helix/languages.toml"
+"zellij.kdl" = "~/.config/zellij/config.kdl"
+
+[default.variables]
+
+[settings]
+default_target_type = "automatic"
