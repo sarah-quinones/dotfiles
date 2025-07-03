@@ -5,12 +5,19 @@ depends = []
 
 [default.files]
 "bottom.toml" = "~/.config/bottom/bottom.toml"
+
 "fish.fish" = "~/.config/fish/config.fish"
+"fish-oh-my-posh.fish" = "~/.config/fish/oh-my-posh.fish"
+"M365Princess.omp.json" = "~/.poshthemes/M365Princess.omp.json"
+
 gitconfig = "~/.gitconfig"
 gitignore = "~/.gitignore"
+
 "helix-lang.toml" = "~/.config/helix/languages.toml"
 "helix.toml" = "~/.config/helix/config.toml"
+
 "rustfmt.toml" = "~/rustfmt.toml"
+
 "zellij.kdl" = "~/.config/zellij/config.kdl"
 
 [default.variables]
