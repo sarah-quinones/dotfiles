@@ -14,6 +14,8 @@ export PATH="$HOME/.juliaup/bin:$PATH"
 export RUSTDOCFLAGS="--cfg docsrs --html-in-header $HOME/katex-header.html"
 export RUSTFLAGS="-C symbol-mangling-version=v0"
 
+export HELIX_RUNTIME="$HOME/.cargo/helix/runtime"
+
 alias record="perf record -g"
 alias report="perf report -g 'graph,0.5,caller' -M intel"
 alias lens="perf script -i perf.data | inferno-collapse-perf | flamelens"
